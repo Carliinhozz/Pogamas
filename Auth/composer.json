@@ -1,0 +1,16 @@
+{
+    "name": "carlos/auth",
+    "description": "Exemplo de autenticacao de usuario",
+    "autoload": {
+        "psr-4": {
+            "Carlos\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos S",
+            "email": "carlos.sergio@escolar.ifrn.edu.br"
+        }
+    ],
+    "require": {}
+}
