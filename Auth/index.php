@@ -1,4 +1,4 @@
-<?php
+<p><?php
 
 require_once __DIR__ .'/vendor/autoload.php';
 $router=include_once __DIR__.'/web.php';
@@ -12,7 +12,7 @@ Model::create_table("CREATE TABLE IF NOT EXISTS loans(user TEXT, book TEXT)");
 
 
 $app= new Application($router);
-$app->send();
+$app->send();</p>
 
 
 
