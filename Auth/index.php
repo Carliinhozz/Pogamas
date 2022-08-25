@@ -1,10 +1,4 @@
-<html>  
-  <body>
-    <title>
-      IUYGD
-      <title>
-    </body>
-  <p><?php
+  <?php
 
   require_once __DIR__ .'/vendor/autoload.php';
   $router=include_once __DIR__.'/web.php';
@@ -18,8 +12,8 @@
 
 
   $app= new Application($router);
-  $app->send();</p>
-</html>
+  $app->send();
+
 
 
 
